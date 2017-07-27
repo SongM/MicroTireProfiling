@@ -63,7 +63,7 @@ function colormask = wbmask(m,n,wbmults,align)
 %
 % Makes a white-balance multiplicative mask for an image of size m-by-n
 % with RGB while balance multipliers WBMULTS = [R_scale G_scale B_scale].
-% ALIGN is string indicating Bayer arrangement: ¡¯rggb¡¯,¡¯gbrg¡¯,¡¯grbg¡¯,¡¯bggr¡¯
+% ALIGN is string indicating Bayer arrangement: Â¡Â¯rggbÂ¡Â¯,Â¡Â¯gbrgÂ¡Â¯,Â¡Â¯grbgÂ¡Â¯,Â¡Â¯bggrÂ¡Â¯
 colormask = wbmults(2) * ones(m,n); %Initialize to all green values
 switch align
     case 'rggb'
