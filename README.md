@@ -11,6 +11,7 @@ III. open the following .m files in program folder,
 6.	‘./laser_rec/laserReconstruction_main.m’
 7.	‘./ps/ps_tire_main.m’
 8.	‘./stitching/stiching_main.m’
+
 And make the following changes for each file:
 1.	Line 2: change the function_folder parameter to the program folder’s address.
 2.	Line 7: change the data_folder parameter to the data folder’s address.
