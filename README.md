@@ -5,6 +5,11 @@ I. Download the program folder
 
 II. Download the data folder
 
+1. put all checkerboard images into 'cam_laser_calib' subfolder in data folder root.
+2. put all the reference checkerboard image and images taken by blackboard into 'ps_ball' subfolder in data folder root.
+3. put all whiteboard images into 'whiteboard' subfolder in data folder root.
+4. put all laser and ps images into 'ps_scan' folder.
+
 III. open the following .m files in program folder, 
 
 1.	‘./calib_cam_laser/calibCam_main.m’
