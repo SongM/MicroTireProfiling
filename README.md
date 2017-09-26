@@ -19,8 +19,8 @@ III. open the following .m files in program folder,
 5.	‘./calib_light/manuallyCorrectLightPos_main.m’
 6.	‘./laser_rec/laserReconstruction_main.m’
 7.	‘./laser_rec/laserReconstruction_45_main.m’
-8.	‘./ps/ps_tire_main.m’
-9.	‘./stitching/stiching_main.m’
+8.	‘./ps/ps_tire_main_20170925.m’
+9.	‘./stitching/calculate_tire_wear_main.m’
 
 And make the following changes for each file:
 
@@ -61,11 +61,11 @@ Or Run ‘./laser_rec/laserReconstruction_45_main.m’ for 45 degree reconstruct
 
 2.B. PS 3D reconstruct
 
-Run  ‘./ps/ps_tire_main.m’
+Run  ‘./ps/ps_tire_main_20170925.m’
 
-2.C. Stitching
+2.C. get tire wear result
 
-Run ‘./stitching/stiching_main.m’
+Run ‘./stitching/calculate_tire_wear_main.m’
 
 After running this, the final result will be displayed.
 
