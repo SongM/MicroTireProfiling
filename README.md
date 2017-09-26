@@ -13,8 +13,9 @@ III. open the following .m files in program folder,
 4.	‘./calib_light/calibLightIllu_main.m’
 5.	‘./calib_light/manuallyCorrectLightPos_main.m’
 6.	‘./laser_rec/laserReconstruction_main.m’
-7.	‘./ps/ps_tire_main.m’
-8.	‘./stitching/stiching_main.m’
+7.	‘./laser_rec/laserReconstruction_45_main.m’
+8.	‘./ps/ps_tire_main.m’
+9.	‘./stitching/stiching_main.m’
 
 And make the following changes for each file:
 
@@ -50,7 +51,8 @@ Run ‘./calib_light/calibLightIllu_main.m’
 
 2.A. Laser 3D reconstruct
 
-Run ‘./laser_rec/laserReconstruction_main.m’
+Run ‘./laser_rec/laserReconstruction_main.m’ for full 360 degree reconstruction
+Or Run ‘./laser_rec/laserReconstruction_45_main.m’ for 45 degree reconstruction
 
 2.B. PS 3D reconstruct
 
