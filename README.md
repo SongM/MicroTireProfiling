@@ -16,22 +16,35 @@ Install Adobe DNG Converter follow the instruction.
 1.B Convert Raw Image (.NEF) to .DNG format
 
 Open Adobe DNG Converter
+
 On Step 1, select the folder where .NEF files are.
+
 On Step 2, select the location to save converted images.
+
 On Step 3, select the name for converted images (suggest:img_(4 Digit Serial Number), and select File extension as .dng.
+
 On Step 4, click 'Change Preferences...', 
+
   Compatibility: Custom...
-    Backward Version: DNG 1.4
+
+  Backward Version: DNG 1.4
+  
     Linear (demosaiced): uncheck
+    
     Uncompressed: uncheck
+    
   No need to change the remaining
+  
 Click Convert, the program will start to convert all .NEF file to .DNG file (it takes several seconds per image)
 
 2. Put images into corresponding subfolders
 
 2.A put all checkerboard images into 'cam_laser_calib' subfolder in data folder root.
+
 2.B put all the reference checkerboard image and images taken by blackboard into 'ps_ball' subfolder in data folder root.
+
 2.C put all whiteboard images into 'whiteboard' subfolder in data folder root.
+
 2.D put all laser and ps images into 'ps_scan' folder.
 
 III. open the following .m files in program folder, 
