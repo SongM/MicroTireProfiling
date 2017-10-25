@@ -26,15 +26,15 @@ On Step 3, select the name for converted images (suggest:img_(4 Digit Serial Num
 
 On Step 4, click 'Change Preferences...', 
 
-  Compatibility: Custom...
+	Compatibility: Custom...
 
-  Backward Version: DNG 1.4
+	Backward Version: DNG 1.4
   
-    Linear (demosaiced): uncheck
+		Linear (demosaiced): uncheck
     
-    Uncompressed: uncheck
+		Uncompressed: uncheck
     
-  No need to change the remaining
+	No need to change the remaining
   
 Click Convert, the program will start to convert all .NEF file to .DNG file (it takes several seconds per image)
 
