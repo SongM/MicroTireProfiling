@@ -29,8 +29,8 @@ function board_set = getBoardFromFolder(folder_name,...
     end
     
 %     im_file_list = dir([folder_name,'\',task,'*mat']);
-    im_file_list = dir([folder_name,'\',task,'\*JPG']);
-%     im_file_list = dir([folder_name,'\',task,'\*DNG']);
+%     im_file_list = dir([folder_name,'\',task,'\*JPG']);
+    im_file_list = dir([folder_name,'\',task,'\*DNG']);
     N_image = numel(im_file_list);
     im_proc = 1:N_image;
     if (sum(im_ind)~=0),    N_image = numel(im_ind);   im_proc = im_ind;    b_display = 1;    end
